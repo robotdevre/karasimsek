@@ -1,0 +1,15 @@
+name: Wokwi Test
+
+on:
+  push:
+    paths:
+      - '**.ino'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Show code
+        run: cat karasimsek.ino
