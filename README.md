@@ -1,4 +1,4 @@
-# led-kayan-efekt ![Wokwi CI](https://github.com/robotdevre/led-kayan-efekt/actions/workflows/wokwi.yml/badge.svg)
+# led-kayan-efekt ![Wokwi CI](https://github.com/robotdevre/karasimsek/actions/workflows/wokwi.yml/badge.svg)
 
 Bu proje, Arduino Uno kartı ile 8 adet LED’in soldan sağa ve sağdan sola kayan ışık efektiyle yanıp sönmesini sağlar. Bu efekt, genellikle Knight Rider (KITT) gibi görsel geçişlerde kullanılır. Başlangıç ve orta seviye Arduino öğrenimi için uygundur.
 
