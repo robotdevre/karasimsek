@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "build/karasimsek.ino.hex"
+elf = "build/karasimsek.ino.elf"
