@@ -2,6 +2,10 @@ int ledCount = 8;              // LED sayısı
 int leds[] = {2, 3, 4, 5, 6, 7, 8, 9}; // LED pinleri 
 
 void setup() {
+  Serial.begin(9600);
+  delay(100); // Bazı durumlarda gerekli
+  Serial.println("GITHUB TEST");
+  
   for (int i = 0; i < ledCount; i++) {
     pinMode(leds[i], OUTPUT);
   }
